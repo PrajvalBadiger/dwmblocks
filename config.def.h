@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "dwm_bt",						360,	4},
 	{"", "dwm_nw",						2,		10},
-	//{"", "dwm_wttr",					360,	10},
+	{"", "dwm_wttr",					360,	10},
 	{"", "dwm_brightness",				360,	30},
 	{"", "dwm_vol",					    360,	20},
 	{"", "dwm_batt",					5,		3},
@@ -12,5 +12,5 @@ static const Block blocks[] = {
 
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
-static char delim[] = " | ";
-static unsigned int delimLen = 5;
+static char delim[] = " ";
+static unsigned int delimLen = 1;
